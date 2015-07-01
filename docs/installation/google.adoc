@@ -1,0 +1,38 @@
+= Google Cloud Platform
+
+== QuickStart with Container-optimized Google Compute Engine images
+
+. Go to https://cloud.google.com/console[Google Cloud Console] and create a new Cloud Project with
+ https://developers.google.com/compute/docs/signup[Compute Engine enabled]
+
+. Download and configure the https://developers.google.com/cloud/sdk[Google Cloud SDK] to use your
+ project with the following commands:
+
+----
+$ curl -sSL https://sdk.cloud.google.com | bash
+$ gcloud auth login
+$ gcloud config set project <google-cloud-project-id>
+----
+
+. Start a new instance using the latest https://developers.google.com/compute/docs/containers#container-optimized_google_compute_engine_images[Container-optimized image]:
+ (select a zone close to you and the desired instance size)
+
+----
+$ gcloud compute instances create docker-playground \
+  --image container-vm \
+  --zone us-central1-a \
+  --machine-type f1-micro
+----
+
+. Connect to the instance using SSH:
+
+----
+$ gcloud compute ssh --zone us-central1-a docker-playground
+docker-playground:~$ sudo docker run hello-world
+----
+
+Hello from Docker.
+This message shows that your installation appears to be working correctly.
+…
+
+Read more about https://developers.google.com/compute/docs/containers[deploying Containers on Google Cloud Platform].

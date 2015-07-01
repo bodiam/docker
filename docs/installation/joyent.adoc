@@ -1,0 +1,19 @@
+== Install on Joyent Public Cloud
+
+. Sign in to the https://my.joyent.com/[Joyent customer portal]
+
+. https://docs.joyent.com/jpc/managing-docker-containers/creating-a-docker-host[Create a Docker host].
+
+== Start and manage containers
+
+. https://docs.joyent.com/jpc/managing-docker-containers/starting-a-container[Start containers in the web UI]
+
+. https://docs.joyent.com/jpc/managing-docker-containers/access-your-jpc-docker-hosts-from-the-docker-cli[Configure the Docker CLI on your laptop] to connect to the remote host to launch and manage containers.
+
+. SSH into the Docker host.
+
+. Launch containers using the Docker CLI.
+
+== Where to go next
+
+Continue with the link:/userguide/[Docker user guide], read Joyent's https://www.joyent.com/blog/first-steps-with-joyents-container-service[getting started blog post], and https://docs.joyent.com/jpc/managing-docker-containers[full documentation].

@@ -1,0 +1,23 @@
+= search
+
+----
+Usage: docker search [OPTIONS] TERM
+
+Search the Docker Hub for images
+
+  --automated=false    Only show automated builds
+  --no-trunc=false     Don't truncate output
+  -s, --stars=0        Only displays with at least x stars
+----
+
+Search https://hub.docker.com[Docker Hub] for images
+
+See link:/userguide/dockerrepos/#searching-for-images[_Find Public Images on Docker Hub_] for
+more details on finding shared images from the command line.
+
+____
+
+*Note:*
+Search queries will only return up to 25 results
+
+____

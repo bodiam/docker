@@ -1,0 +1,16 @@
+= Registry
+
+== Introduction
+
+A Registry is a hosted service containing
+link:/terms/repository/#repository-def[_repositories_] of
+link:/terms/image/#image-def[_images_] which responds to the Registry API.
+
+The default registry can be accessed using a browser at
+https://hub.docker.com[Docker Hub] or using the
+`docker search` command.
+
+== Further reading
+
+For more information see link:/userguide/dockerrepos/#working-with-the-repository[_Working with
+Repositories_]

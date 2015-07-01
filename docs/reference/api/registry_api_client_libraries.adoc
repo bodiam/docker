@@ -1,0 +1,14 @@
+= Docker Registry v1 API client libraries
+
+These libraries have not been tested by the Docker maintainers for
+compatibility. Please file issues with the library owners. If you find
+more library implementations, please submit a PR with an update to this page
+or open an issue in the https://github.com/docker/docker/issues[Docker]
+project and we will add the libraries here.
+
+|===
+|Language/Framework |Name |Repository |Status
+
+|*WebUI* |docker-registry-frontend |https://github.com/kwk/docker-registry-frontend[https://github.com/kwk/docker-registry-frontend] |Active
+|Go |docker-reg-client |https://github.com/CenturyLinkLabs/docker-reg-client[https://github.com/CenturyLinkLabs/docker-reg-client] |Active
+|===

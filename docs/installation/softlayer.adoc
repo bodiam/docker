@@ -1,0 +1,25 @@
+= IBM SoftLayer
+
+. Create an [IBM SoftLayer account](
+ https://www.softlayer.com/cloud-servers/).
+. Log in to the [SoftLayer Customer Portal](
+ https://control.softlayer.com/).
+. From the _Devices_ menu select https://control.softlayer.com/devices[_Device List_]
+. Click _Order Devices_ on the top right of the window below the menu bar.
+. Under _Virtual Server_ click https://manage.softlayer.com/Sales/orderHourlyComputingInstance[_Hourly_]
+. Create a new _SoftLayer Virtual Server Instance_ (VSI) using the default
+ values for all the fields and choose:
+
+** The desired location for _Datacenter_
+** _Ubuntu Linux 12.04 LTS Precise Pangolin - Minimal Install (64 bit)_
+ for _Operating System_.
+. Click the _Continue Your Order_ button at the bottom right.
+
+. Fill out VSI _hostname_ and _domain_.
+. Insert the required _User Metadata_ and place the order.
+. Then continue with the link:../ubuntulinux/#ubuntu-linux[_Ubuntu_]
+ instructions.
+
+== What next?
+
+Continue with the link:/userguide/[User Guide].

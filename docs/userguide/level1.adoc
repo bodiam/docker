@@ -1,0 +1,35 @@
+<a title="back" class="dockerfile back" href="/userguide/dockerimages/#creating-our-own-images">Back</a>
+
+= Dockerfile tutorial
+
+== Test your Dockerfile knowledge - Level 1
+
+=== Questions
+
+=== Fill the Dockerfile
+
+Your best friend Eric Bardin sent you a Dockerfile, but some parts were lost in the ocean. Can you find the missing parts?
+<div class="form-inline">
+<pre>
+&#35; This is a Dockerfile to create an image with Memcached and Emacs installed. <br>
+&#35; VERSION 1.0<br>
+&#35; use the ubuntu base image provided by dotCloud
+<input type="text" class="l_fill" id="from" /> ub<input type="text" class="l_fill" id="ubuntu" /><br>
+<input type="text" class="l_fill" id="maintainer" /> E<input type="text" class="l_fill" id="eric" /> B<input type="text" class="l_fill" id="bardin" />, link:mailto:&#101;r&#x69;&#99;&#x2e;&#x62;&#97;&#114;d&#x69;&#x6e;@&#100;&#x6f;&#x74;&#99;&#108;&#111;&#117;&#100;&#x2e;&#x63;&#111;&#109;[&#101;r&#x69;&#99;&#x2e;&#x62;&#97;&#114;d&#x69;&#x6e;@&#100;&#x6f;&#x74;&#99;&#108;&#111;&#117;&#100;&#x2e;&#x63;&#111;&#109;]<br>
+&#35; make sure the package repository is up to date
+<input type="text" class="l_fill" id="run0"/> echo "deb http://archive.ubuntu.com/ubuntu precise main universe" &gt; /etc/apt/sources.list
+<input type="text" class="l_fill" id="run1" /> apt-get update<br>
+&#35; install memcached
+RUN apt-get install -y <input type="text" class="l_fill" id="memcached" /><br>
+&#35; install emacs
+<input type="text" class="l_fill" id="run2"/> apt-get install -y emacs23
+</pre>
+</div>
+
+<br>
+<button class="btn btn-primary" id="check_level1_fill">Check the Dockerfile</button></p>
+
+== What's next?
+
+<a title="back" class="btn btn-primary back" href="/userguide/dockerimages/#creating-our-own-images">Back</a>
+<a title="next level" class="btn btn-primary" href="/userguide/level2">Go to the next level</a>

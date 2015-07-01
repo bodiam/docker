@@ -1,0 +1,24 @@
+= Supported installation
+
+Docker supports installation on the following: 
+
+* link:amazon[Amazon EC2 Installation]
+* link:archlinux[Arch Linux]
+* link:azure[Microsoft Azure platform]
+* link:binaries[Installation from binaries]
+* link:centos[CentOS]
+* link:cruxlinux[CRUX Linux]
+* link:debian[Debian]
+* link:fedora[Fedora]
+* link:frugalware[FrugalWare]
+* link:gentoolinux[Gentoo]
+* link:google[Google Cloud Platform]
+* link:joyent[Install on Joyent Public Cloud]
+* link:mac[Mac OS X]
+* link:oracle[Oracle Linux]
+* link:rackspace[Rackspace Cloud]
+* link:rhel[Red Hat Enterprise Linux]
+* link:softlayer[IBM SoftLayer]
+* link:SUSE[openSUSE and SUSE Linux Enterprise]
+* link:ubuntulinux[Ubuntu ]
+* link:windows[Windows]

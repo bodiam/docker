@@ -1,0 +1,9 @@
+= The Docker Hub Registry help
+
+== Introduction
+
+For your questions about the https://hub.docker.com[Docker Hub] registry you
+can use link:docs.md[this documentation].
+
+If you can not find something you are looking for, please feel free to
+https://docker.com/resources/support/[contact us].
